@@ -50,4 +50,5 @@ spec:
         - name: source
           workspace: shared-workspace
     # kustomize.
-
+  workspaces:
+    - name: shared-workspace
