@@ -3,7 +3,6 @@ kind: Task
 metadata:
   managedFields:
     - apiVersion: tekton.dev/v1beta1
-      manager: kubectl-create
       operation: Update
   name: apply-manifests
 spec:
